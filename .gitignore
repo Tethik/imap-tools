@@ -1,0 +1,5 @@
+*_all.py
+*@*
+.vscode
+*.pyc
+*.egg-info/
