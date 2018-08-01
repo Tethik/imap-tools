@@ -1,5 +1,5 @@
 # README
-Some scripts to help with migrating between imap servers. 
+Some scripts to help with migrating between imap servers. Use at your own risk!
 
 ## Install
 Requires python 3.6.
