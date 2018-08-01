@@ -12,9 +12,9 @@ setup(
     author_email='tethik@gmail.com',
     description='Commandline Interface to load .env from vault',
     url='https://github.com/Tethik/imap-tools',
-    py_modules=['download','upload'],
+    py_modules=['imap_migrate_download','imap_migrate_upload'],
     entry_points = {
-        'console_scripts': ['imap-download=download:cli', 'imap-upload=upload:cli'],
+        'console_scripts': ['imap-download=imap_migrate_download:cli', 'imap-upload=imap_migrate_upload:cli'],
     },
     zip_safe=True,
     package_data={'': ['LICENSE', 'README.md']},
